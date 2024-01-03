@@ -18,7 +18,7 @@ function alterarStatus(id) {
     botao.classList.add("dashboard__item__button--return");
     botao.textContent = "Devolver";
     listaALugados.push(id); // Adicione o jogo à lista ao alugar.
-    console.log("foram alugados: ", listaALugados.length);
+    console.log("foram alugados: ", listaALugados.length,"jogos");
   
   }
 }
